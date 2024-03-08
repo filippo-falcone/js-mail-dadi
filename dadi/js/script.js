@@ -25,3 +25,5 @@ if (userDice > comDice) {
 }
 // Output
 userMessage.innerHTML = winnerOrLose;
+console.log('dado utente', userDice);
+console.log('dado computer', comDice);
