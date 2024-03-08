@@ -8,7 +8,7 @@
 // - Se il numero dell'utente è superiore a quello del pc scrivo 'Complimenti hai vinto'
 // - Altrimenti se i due numeri sono uguali scrivo 'Pareggio'
 // - Altrimenti scrivo 'Mi dispiace hai perso'
-// Stampo il risultato nel DOM 
+// Stampo il risultato nel DOM
 */
 // Variabili
 const userDice = parseInt(prompt('Inserisci un numero da 1 a 6'))
@@ -23,4 +23,5 @@ if (userDice > comDice) {
 } else {
     winnerOrLose = 'Mi dispiace hai perso';
 }
+// Output
 userMessage.innerHTML = winnerOrLose;
