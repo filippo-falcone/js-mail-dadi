@@ -14,8 +14,8 @@
 */
 // Variabili
 const mailList = ['gianluca.reneti@gmail.com', 'elisamarino98@gmail.com', 'alessiocal8@gmail.com', 'marinamesino100@libero.it', 'calafiorinino35@outlook.it', 'luisadinatino6@virgilio.it', 'pierfrancesco.lacinotti@gmail.com', 'matino76@hotmail.com', 'forza.ascoli@gmail.com', 'grazieakira@outlook.it',];
-const userMail = prompt('Inserisci la mail del tuo account');
-const userMessage = document.querySelector('#mail-access')
+const userMail = prompt('Inserisci la mail del tuo account').toLowerCase();
+const userMessage = document.querySelector('#mail-access');
 let mailFound = false;
 let userAccess;
 // Funzionalità
