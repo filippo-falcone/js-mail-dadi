@@ -2,8 +2,7 @@
    GIOCO DEI DADI
 ----------------- */
 /* 
-// Chiedo all'utente di scrivere un numero casuale da 1 a 6
-// Creo un numero casuale da 1 a 6 anche per il computer
+// Creo un numero casuale da 1 a 6 sia per l'utente che per il computer
 // Stabilisco il vincitore
 // - Se il numero dell'utente è superiore a quello del pc scrivo 'Complimenti hai vinto'
 // - Altrimenti se i due numeri sono uguali scrivo 'Pareggio'
