@@ -11,7 +11,7 @@
 // Stampo il risultato nel DOM
 */
 // Variabili
-const userDice = parseInt(prompt('Inserisci un numero da 1 a 6'));
+const userDice = Math.floor(Math.random() * 6) + 1;
 const comDice = Math.floor(Math.random() * 6) + 1;
 const userMessage = document.querySelector('#message');
 let winnerOrLose;
